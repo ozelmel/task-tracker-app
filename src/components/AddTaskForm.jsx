@@ -9,8 +9,8 @@ const AddTaskForm = ({ tasks, setTasks }) => {
     const id = new Date().getTime();
     const newTask = { id, task, day, isDone: false };
     setTasks([...tasks, newTask]);
-    setTasks("");
-    setDay("");
+    // setTasks("");
+    // setDay("");
   };
   return (
     <div>
